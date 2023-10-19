@@ -1,2 +1,4 @@
 # Differences_between_SemSegmentation_BBox
 Contains code and figures comparing two object localisation algorithms in computer vision, Semantic Segmentation and Single Shot Detector Bounding Box Algorithm 
+
+Semantic segmentation algorithm based on U-Net architecture has been compared with Single shot Detector Bounding Box Algorithm for small object detection in medical imaging dataset(CANDID-PTX). The dataset contains images for Acute Rib Fracture provided with a RLE labelled file. The same RLE Labels have been used to create masks for Semantic Segmentation algorithm as well as bounding box lebels for SSD algorithm. A thorough comparison between the losses obtained after training both the algorithms have been compared in the corresponding Research Paper. The supplimentary files are attached in this repository.
